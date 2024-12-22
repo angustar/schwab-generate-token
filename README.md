@@ -3,16 +3,11 @@
 ## Overview
 `schwab-generate-token` is a tool to fetch a new token from the Schwab API and write it to a file. The tool can be run using command-line arguments or by prompting the user for input.
 
-## Installation
-Ensure you have the `schwab` library installed. You can install it using the following command:
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 You can run the script directly with the required arguments:
 ```bash
+pip install -r requirements.txt
 python schwab-generate-token.py --api_key YOUR_API_KEY --app_secret YOUR_APP_SECRET --callback_url CALLBACK_URL --token_file TOKEN_FILE_NAME
 ```
 
