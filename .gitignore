@@ -1,0 +1,36 @@
+# 忽略所有 .exe 文件
+*.exe
+
+# 忽略 PyInstaller 生成的目录
+temp/
+build/
+dist/
+
+# 忽略 PyInstaller 生成的 spec 文件
+*.spec
+
+# 忽略临时文件和缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略 IDE 相关文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略其他常见临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.json
